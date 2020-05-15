@@ -14,10 +14,13 @@ html {
 
 /* Hero */
 .hero {
+  text-align: center;
+
   background-color: rgb(190, 190, 190);
 }
 
 .hero-title {
+  margin-bottom: 46px;
   color: var(--white-color);
 
   font-weight: 900;
@@ -29,12 +32,19 @@ html {
   text-transform: uppercase;
 }
 
-.order:focus {
-}
-
 /* Sections */
 
+.section {
+  padding-bottom: 94px;
+}
+
+.add-padding {
+  padding-top: 94px;
+}
+
 .section-title {
+  margin-bottom: 50px;
+
   color: var(--secondary-text-color);
 
   font-weight: 700;
@@ -46,12 +56,24 @@ html {
 /* Примущества */
 
 .advantages-title {
+  margin: 0px;
+  margin-bottom: 10px;
+
   color: var(--secondary-text-color);
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.advantages-img {
+  margin-bottom: 55px;
+}
+
+.advantages-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Чем мы занимаемся */
@@ -65,9 +87,25 @@ html {
   text-transform: uppercase;
 }
 
+p.caption {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
 /* Наша команда */
 
+.background {
+  background-color: #f5f4fa;
+}
+
+.team-img {
+  margin-bottom: 30px;
+}
+
 .names {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
   color: var(--secondary-text-color);
 
   font-weight: 500;
@@ -76,6 +114,9 @@ html {
 }
 
 .profession {
+  margin-top: 0px;
+  margin-bottom: 28px;
+
   font-size: 16px;
   line-height: 1.19;
 }
