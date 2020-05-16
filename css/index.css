@@ -76,6 +76,20 @@ html {
   margin-bottom: 0px;
 }
 
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list .item + .item {
+  margin-left: 29px;
+}
+
+.advantages-list .advantages-img {
+  display: block;
+  margin: auto;
+  margin-bottom: 55px;
+}
+
 /* Чем мы занимаемся */
 
 .section .caption {
@@ -90,6 +104,18 @@ html {
 p.caption {
   margin-top: 27px;
   margin-bottom: 27px;
+}
+
+.we-list {
+  display: flex;
+}
+
+.we-list .item + .item {
+  margin-left: 30px;
+}
+
+.we-list .item {
+  text-align: center;
 }
 
 /* Наша команда */
@@ -120,3 +146,44 @@ p.caption {
   font-size: 16px;
   line-height: 1.19;
 }
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item + .item {
+  margin-left: 30px;
+}
+
+.team-list .item {
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+.icons-list {
+  display: flex;
+}
+
+.icons-list .item + .item {
+  margin-left: 30px;
+}
+
+.icons-list {
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+/* Наши клиенты */
+
+.clients-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .clients-list .item + .item {
+  margin-left: 160px;
+}
+
+.clients-list .item:first-child {
+  margin-left: 65px;
+} */
