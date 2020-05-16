@@ -19,6 +19,10 @@ html {
   color: var(--accent-color);
 }
 
+.invisible-title {
+  text-align: center;
+}
+
 .filter-list .filter {
   color: var(--secondary-text-color);
 
@@ -37,6 +41,26 @@ html {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
+
+.filter-list .filter {
+  padding: 6px 22px;
+
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 93px;
+}
+
+.filter-list .item + .item {
+  margin-left: 8px;
+}
+
+/* Примеры */
 
 .examples .examples-title {
   color: var(--secondary-text-color);
